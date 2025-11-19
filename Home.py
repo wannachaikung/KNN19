@@ -5,4 +5,4 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 st.header("Wannachai")
-st.image('.img/wannachai.jpg')
+st.image("./img/wannachai.jpg")
