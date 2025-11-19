@@ -4,7 +4,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-st.header("โปรเจคการจำแนกข้อมูลดอกไม้ Iris ด้วย KNN")
+
+st.header("โปรเจคการจำแนกข้อมูลดอกไม้ Iris")
 st.image("./img/wannachai.jpg")
 
 col1, col2, col3 = st.columns(3)
@@ -20,3 +21,11 @@ with col2:
 with col3:
    st.header("Setosa")
    st.image("./img/iris3.jpg")
+
+html_7 = """
+<div style="background-color:#EC7063;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<center><h5>สถิติข้อมูลดอกไม้</h5></center>
+</div>
+"""
+st.markdown(html_7, unsafe_allow_html=True)
+st.markdown("")
